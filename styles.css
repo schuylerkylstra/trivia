@@ -7,7 +7,7 @@
 }
 
 body {
-	background: black;
+	background: darkgrey;
 }
 
 header {
@@ -23,30 +23,46 @@ header > h1 {
 
 .intro {
 	text-align: center;
-	color: white;
+	color: black;
 	margin: 10px auto;
 }
 
 .question {
+	background: white;
 	margin: 25px auto;
-	border: 3px solid white;
+	border: 3px solid black;
 	border-radius: 5px;
-	width: 500px;
-	color: white;
+	width: 550px;
+	color: black;
 	text-align: center;
 	font-family: Asap, sans-serif;
 	font-size: 40px
 }
 
+.result {
+	margin: 5px 15px;
+}
+
 .trigger {
 	color: black;
 	text-align: center;
-	border: 3px solid grey;
+	border: 3px solid black;
 	border-radius: 4px;
 	width: 100px;
 	margin: 25px auto;
 	font-family: Asap,sans-serif;
 	background: white;
+	transition: all 0.3s ease;
+}
+
+.trigger:hover {
+	cursor: pointer;
+	background: lightgrey
+}
+
+.trigger:click {
+	cursor: pointer;
+	background: darkgrey
 }
 
 .button {
