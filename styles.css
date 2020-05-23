@@ -30,9 +30,6 @@ header > h1 {
 .question {
 	background: white;
 	margin: 25px auto;
-	border: 3px solid black;
-	border-radius: 5px;
-	width: 550px;
 	color: black;
 	text-align: center;
 	font-family: Asap, sans-serif;
@@ -52,7 +49,7 @@ header > h1 {
 	margin: 25px auto;
 	font-family: Asap,sans-serif;
 	background: white;
-	transition: all 0.3s ease;
+	transition: background 0.1s ease-out;
 }
 
 .trigger:hover {
@@ -60,7 +57,7 @@ header > h1 {
 	background: lightgrey
 }
 
-.trigger:click {
+.trigger:active {
 	cursor: pointer;
 	background: darkgrey
 }
