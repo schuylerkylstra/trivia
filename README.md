@@ -1,1 +1,1 @@
-# trivia_front
+# trivia
