@@ -1,0 +1,31 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "ai generating trivia service",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schuylerkylstra/trivia.git"
+  },
+  "keywords": [
+    "AI",
+    "ML",
+    "Machine",
+    "Learning",
+    "Trivia",
+    "Wikipedia"
+  ],
+  "author": "Schuyler and James Kylstra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schuylerkylstra/trivia/issues"
+  },
+  "homepage": "https://github.com/schuylerkylstra/trivia#readme"
+}
